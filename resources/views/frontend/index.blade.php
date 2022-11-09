@@ -5,7 +5,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="{{url('frontend/img/carousel-1.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <i class="fa fa-home fa-4x text-primary mb-4 d-none d-sm-block"></i>
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="{{url('frontend/img/carousel-2.jpg')}}" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <i class="fa fa-tools fa-4x text-primary mb-4 d-none d-sm-block"></i>
@@ -60,11 +60,11 @@
                     </div>
                 </div>
                 <p class="mb-4">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos labore</p>
-                <img src="img/signature.jpg" alt="">
+                <img src="{{url('frontend/img/signature.jpg')}}" alt="">
             </div>
             <div class="col-lg-5 pb-5" style="min-height: 400px;">
                 <div class="position-relative bg-dark-radial h-100 ms-5">
-                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="{{url('frontend/img/about.jpg')}}" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-1.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-1.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-building text-primary"></i>
                     </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-2.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-2.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-home text-primary"></i>
                     </div>
@@ -106,7 +106,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-3.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-3.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-drafting-compass text-primary"></i>
                     </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-4.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-4.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-palette text-primary"></i>
                     </div>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-5.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-5.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-tools text-primary"></i>
                     </div>
@@ -145,7 +145,7 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-6.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/service-6.jpg')}}" alt="">
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-paint-brush text-primary"></i>
                     </div>
@@ -220,19 +220,19 @@
                 <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
                     <ul class="list-inline mb-0" id="portfolio-flters">
                         <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
-                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;">
+                            <img src="{{url('frontend/img/portfolio-1.jpg')}}" style="width: 150px; height: 100px;">
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
                                 <h6 class="text-white text-uppercase m-0">All</h6>
                             </div>
                         </li>
                         <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
-                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;">
+                            <img src="{{url('frontend/img/portfolio-2.jpg')}}" style="width: 150px; height: 100px;">
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
                                 <h6 class="text-white text-uppercase m-0">Construction</h6>
                             </div>
                         </li>
                         <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
-                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;">
+                            <img src="{{url('frontend/img/portfolio-3.jpg')}}" style="width: 150px; height: 100px;">
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
                                 <h6 class="text-white text-uppercase m-0">Renovation</h6>
                             </div>
@@ -244,72 +244,72 @@
         <div class="row g-5 portfolio-container">
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{url('frontend/img/portfolio-1.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-1.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{url('frontend/img/portfolio-2.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-2.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{url('frontend/img/portfolio-3.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-3.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                    <img class="frontend/img-fluid w-100" src="{{url('frontend/img/portfolio-4.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-4.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{url('frontend/img/portfolio-5.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-5.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
                 <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{url('frontend/img/portfolio-6.jpg')}}" alt="">
                     <a class="portfolio-title shadow-sm" href="">
                         <p class="h4 text-uppercase">Project Name</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
                     </a>
-                    <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                    <a class="portfolio-btn" href="{{url('frontend/img/portfolio-6.jpg')}}" data-lightbox="portfolio">
                         <i class="bi bi-plus text-white"></i>
                     </a>
                 </div>
@@ -329,7 +329,7 @@
                 <div class="row g-0">
                     <div class="col-10" style="min-height: 300px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url('frontend/img/team-1.jpg')}}" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-2">
@@ -353,7 +353,7 @@
                 <div class="row g-0">
                     <div class="col-10" style="min-height: 300px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url('frontend/img/team-2.jpg')}}" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-2">
@@ -377,7 +377,7 @@
                 <div class="row g-0">
                     <div class="col-10" style="min-height: 300px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url('frontend/img/team-3.jpg')}}" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-2">
@@ -401,7 +401,7 @@
                 <div class="row g-0">
                     <div class="col-10" style="min-height: 300px;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="{{url('frontend/img/team-4.jpg')}}" style="object-fit: cover;">
                         </div>
                     </div>
                     <div class="col-2">
@@ -433,7 +433,7 @@
         </div>
         <div class="row gx-0 align-items-center">
             <div class="col-xl-4 col-lg-5 d-none d-lg-block">
-                <img class="img-fluid w-100 h-100" src="img/testimonial.jpg">
+                <img class="img-fluid w-100 h-100" src="{{url('frontend/img/testimonial.jpg')}}">
             </div>
             <div class="col-xl-8 col-lg-7 col-md-12">
                 <div class="testimonial bg-light">
@@ -453,7 +453,7 @@
                         </div>
                         <div class="row gx-4 align-items-center">
                             <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="{{url('frontend/img/testimonial-2.jpg')}}" alt="">
                             </div>
                             <div class="col-xl-8 col-lg-7 col-md-7">
                                 <h4 class="text-uppercase mb-0">Client Name</h4>
@@ -480,11 +480,11 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/blog-1.jpg')}}" alt="">
                     <div class="p-4">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
+                                <img class="rounded-circle me-2" src="{{url('frontend/img/user.jpg')}}" width="35" height="35" alt="">
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
@@ -498,11 +498,11 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/blog-2.jpg')}}" alt="">
                     <div class="p-4">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
+                                <img class="rounded-circle me-2" src="{{url('frontend/img/user.jpg')}}" width="35" height="35" alt="">
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
@@ -516,11 +516,11 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                    <img class="img-fluid" src="{{url('frontend/img/blog-3.jpg')}}" alt="">
                     <div class="p-4">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
+                                <img class="rounded-circle me-2" src="{{url('frontend/img/user.jpg')}}" width="35" height="35" alt="">
                                 <span>John Doe</span>
                             </div>
                             <div class="d-flex align-items-center">
