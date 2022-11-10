@@ -22,7 +22,7 @@ Route::get('/',[Homecontroller::class,'index']);
 Route::get('/about',[Aboutcontroller::class,'index']);
 Route::get('/blog',[Blogcontroller::class,'index']);
 Route::get('/contact',[Contactcontroller::class,'index']);
-
+Route ::get('/project',[Projectcontroller::class,'index']);
 Route::get('/service',[Servicecontroller::class,'index']);
 Route::get('/team',[Teamcontoller::class,'index']);
 Route::get('/testimonoial',[Testimonialcontroller::class,'index']);

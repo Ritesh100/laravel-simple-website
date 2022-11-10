@@ -84,7 +84,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="" class="dropdown-item active">Our Project</a>
+                            <a href="{{url('/project')}}" class="dropdown-item active">Our Project</a>
                             <a href="{{url('/team')}}" class="dropdown-item">The Team</a>
                             <a href="{{url('/testimonial')}}" class="dropdown-item">Testimonial</a>
                             <a href="{{url('/blog')}}" class="dropdown-item">Blog Grid</a>
